@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+
+<!-- Navbar -->
+ <nav>
+    <div class="left">
+        <a href="/">FIANCHERO</a>
+    </div>
+    <div class="right">
+        <a href="https://github.com" target="_blank" rel="noopener">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+        </a>
+        <a href="mailto:urbanspark3@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>E-Mail</span>
+        </a>
+    </div>
+ </nav>
+
+ <main>
+    <!-- Section 1 - Hero -->
+    <section class="hero-section">
+        <div class="text">
+            <h2>Hi, I'm Fianchero!👋</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Iste incidunt est repudiandae, ut qui voluptatum!
+            Placeat reprehenderit explicabo quaerat dicta, deleniti
+            saepe quis dolore aliquam dolorem! Totam molestias odit
+            qui enim dicta unde architecto impedit ipsam cumque.
+            Voluptatem commodi dolor pariatur repellendus rem quisquam 
+            magnam, illo animi non odio voluptatibus.</p>
+
+            <div class ="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                   <span>Skills</span> 
+                </a>
+                <a href="#testimony">
+                    <i class="fa-solid fa-pen"></i>
+                   <span>Testimonial</span> 
+                </a>
+                <a href="#contact">
+                    <i class="fa-solid fa-envelope"></i>
+                   <span>Contact</span> 
+                </a>
+            </div>
+        </div>
+        <div class="headshot">
+            <img src="images/hero-headshot.webp" alt="Fianchero">
+        </div>
+
+
+
+    </section>
+
+    <!-- Section 2 - Skills -->
+    <section id="skills" class="skills-section">     
+        <h2>Skills</h2>
+        <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quas
+            deleniti repudiandae accusantium aliquam numquam, dolorum sit atque animi aperiam
+            neque dignissimos eos in delectus.Cum est, doloremque similique qui quasi incidunt!
+            Odit blanditiis nam, amet sint, similique iusto ad neque aperiam officiis repellat
+            eaque quo laborum voluptatibus, quis molestiae.
+        </div>
+
+        <div class="cells">
+            <div class="cell">
+                <img src="images/html-logo.webp" alt="html-logo">
+                <span>HTML</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/css-logo.webp" alt="css">
+                <span>CSS</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/javascript-logo.webp" alt="java script logo">
+                <span>JavaScript</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/node-logo.webp" alt="node logo">
+                <span>Node.js</span>
+            </div>
+
+            <div class="cell">
+                <img src="images/react-logo.webp" alt="react-logo">
+                <span>HTML</span>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!-- Section 3 - Testimonial -->
+    <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+
+        <div class="group">
+            <div class="person-details">
+                <img src="images/testimony-headshot.webp">
+                <p>John Doe</p>
+                <p>Lorem ipsum dolor sit.</p>
+
+                
+            </div>
+            <div class="text">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium aliquid nulla cumque praesentium pariatur! Aspernatur
+                itaque quam adipisci impedit ducimus fugit! Magnam fugit reiciendis
+                eos quis repellat fugiat repellendus, fuga error eaque iure dicta quas
+                eveniet sint? Laboriosam ullam dignissimos delectus autem nobis,
+                exercitationem ea soluta, natus at asperiores beatae!"
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- Section 4 - Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+            <div class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Doloremque, quam beatae! Ab doloribus quod odit explicabo
+                qui corporis similique blanditiis! Iure culpa eveniet impedit
+                illum, corporis fugit in unde nostrum quibusdam molestiae distinctio
+                ullam consequatur esse illo repellendus, sapiente natus nemo,
+                at quas? At eligendi neque repellendus tempora. Alias, error?
+            </div>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name">
+                
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" placeholder="E-Mail">
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10" placeholder="Message"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+ </main>
+    
+</body>
+</html>
